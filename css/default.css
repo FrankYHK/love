@@ -79,3 +79,17 @@ a {
 .space {
   margin-right: 150px;
 }
+.important {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#music {
+  position: fixed;
+  top: 15%;
+  left: 0;
+  transform: translate(-85%);
+}
+#music:hover {
+  transform: translate(0);
+}
